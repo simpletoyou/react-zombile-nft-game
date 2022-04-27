@@ -1,3 +1,11 @@
+/*
+ * @Description: 
+ * @version: 
+ * @Author: simpletoyou
+ * @Date: 2022-04-22 16:51:35
+ * @LastEditors: simpletoyou
+ * @LastEditTime: 2022-04-27 17:39:40
+ */
 import React, { Component } from 'react';
 import ZombiePreview from "./ZombiePreview"
 
@@ -16,6 +24,7 @@ class ZombieCard extends Component {
     }
     render() { 
         return ( 
+            // 僵尸卡片：显示僵尸名称与登记
             <div className="game-card home-card selectable">
                 <div className="zombie-char">
                 <ZombiePreview zombie={this.state.zombie}></ZombiePreview>

@@ -4,6 +4,7 @@ import ZombiePreview from "./ZombiePreview"
 import './static/ZombiePreview.css'
 import moment from "moment"
 
+// 僵尸对战页面
 class NewZombie extends Component {
     constructor(props) {
         super(props);
@@ -89,6 +90,7 @@ class NewZombie extends Component {
         })
     }
 
+    // 两只僵尸对战事件
     zombieAttack(){
         let that = this
         if(this.state.myZombie !== undefined){

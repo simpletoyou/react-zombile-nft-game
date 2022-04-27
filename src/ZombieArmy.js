@@ -1,3 +1,11 @@
+/*
+ * @Description: 僵尸军团页面
+ * @version: 
+ * @Author: simpletoyou
+ * @Date: 2022-04-22 16:51:35
+ * @LastEditors: simpletoyou
+ * @LastEditTime: 2022-04-27 16:59:30
+ */
 import React, { Component } from 'react'
 import ZombieCard from "./ZombieCard";
 import './static/ZombiePreview.css';
@@ -50,6 +58,7 @@ class ZombieArmy extends Component {
         if(this.state.zombies.length>0) {
             return ( 
                 <div className="cards">
+                    {/* 僵尸军团，显示所有（包括别人）僵尸 */}
                     {this.state.zombies.map((item,index)=>{
                         var name = item.name
                         var level = item.level

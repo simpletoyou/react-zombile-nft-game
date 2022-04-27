@@ -4,7 +4,7 @@
  * @Author: simpletoyou
  * @Date: 2022-04-22 16:51:35
  * @LastEditors: simpletoyou
- * @LastEditTime: 2022-04-27 15:58:02
+ * @LastEditTime: 2022-04-27 17:02:02
  */
 import React, { Component } from 'react'
 
@@ -37,7 +37,6 @@ class ZombiePreview extends Component {
             _className = "zombie-parts head-visible-1 eye-visible-1 shirt-visible-1"
             if (this.state.zombie.dna !== undefined) {
                 var dna = this.state.zombie.dna
-                console.log('dna-----------', dna)
                 var _head = dna.substring(0, 2) % 8 + 1
                 var _eye = dna.substring(2, 4) % 11 + 1
                 var _shirt = dna.substring(4, 6) % 6 + 1
@@ -45,10 +44,7 @@ class ZombiePreview extends Component {
                 _style['color'] = { filter: "hue-rotate(" + dna.substring(6, 9) % 360 + 1 + "deg)" }
                 _style['skin'] = { filter: "hue-rotate(" + dna.substring(9, 12) % 360 + 1 + "deg)" }
                 _style['eye_color'] = { filter: "hue-rotate(" + dna.substring(12, 15) % 360 + "deg)" }
-                console.log('_stylecolor', _style['color'])
-                console.log('_styleskin', _style['skin'])
-                console.log('_styleeye', _style['eye_color'])
-                console.log('-----------------');
+               
             }
         }
         return (

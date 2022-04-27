@@ -1,3 +1,13 @@
+<!--
+ * @Description: 
+ * @version: 
+ * @Author: simpletoyou
+ * @Date: 2022-04-22 16:51:35
+ * @LastEditors: simpletoyou
+ * @LastEditTime: 2022-04-27 16:58:27
+-->
+
+
 # 区块链收藏游戏：僵尸之谜
 [![Build Status](https://travis-ci.org/Fankouzu/my-crypto-zombie.svg?branch=master)](https://travis-ci.org/Fankouzu/my-crypto-zombie)
 ## Demo
@@ -48,3 +58,6 @@ https://fankouzu.github.io/my-crypto-zombie/ <br />
 本项目所使用的[智能合约源码在这里](https://github.com/Fankouzu/smart-contract/tree/master/Solidity%20Lesson%2004)<br>
 
 ipfs上也有 ipfs://QmTYNvirSHmoHtjCbH77Zc64xNLFUpMq2JSjUmQeDgLvhY
+
+## 源代码
+崔棉大师：https://github.com/Fankouzu/my-crypto-zombie
