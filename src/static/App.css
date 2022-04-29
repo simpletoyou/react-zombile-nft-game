@@ -146,6 +146,7 @@ article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, s
     margin: -1rem;
     background-size: 100%;
     position: relative;
+    /* 默认卡片缩小为0.8大小 */
     transform: scale(.8);
     cursor: pointer;
     transition: transform 0.5s;
